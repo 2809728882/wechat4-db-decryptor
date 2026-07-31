@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# decrypted data and logs
+decrypted-output/
+output/
+logs/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# keys and sensitive local config
+*key*
+*KEY*
+secrets.*
+*.secret
+
+# local tooling
+.uv-cache/
+.ruff_cache/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
